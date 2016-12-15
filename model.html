@@ -16,10 +16,11 @@
 			$(function(){
 				$("#tankuan").click(function(){
 					$("#myModal").modal("show"); //绑定模态框的显示状态
-					$("#myModal").modal({
-						backdrop:"static",
-						show:""
-					})
+//					$("#myModal").modal({
+//						backdrop:"static",  //表示点击背景模态框不关闭
+//						show:"show"         //一上来就显示
+//						remote:"kk.html"    //调用外部的页面
+//					})
 				});
 				//监听模态框的状态
 				$('#myModal').on("show.bs.modal",function(){
